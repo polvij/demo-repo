@@ -6,6 +6,6 @@ phases:
       python: 3.8
   build:
     commands:
-      - echo "Starting S3 Copy"
+      - echo "Starting S3 Copy"  
       - aws s3 cp s3://vijay-source-bucket-6may25/ s3://vijay-destination-bucket-6may25/ --recursive
       - echo "Copy completed"  
