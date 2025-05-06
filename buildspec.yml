@@ -8,4 +8,4 @@ phases:
     commands:
       - echo "Starting S3 Copy"
       - aws s3 cp s3://vijay-source-bucket/ s3://vijay-destination-bucket/ --recursive
-      - echo "Copy completed"
+      - echo "Copy completed"  
