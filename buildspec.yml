@@ -7,5 +7,5 @@ phases:
   build:
     commands:
       - echo "Starting S3 Copy"
-      - aws s3 cp s3://vijay-source-bucket/ s3://vijay-destination-bucket/ --recursive
+      - aws s3 cp s3://vijay-source-bucket-6may25/ s3://vijay-destination-bucket-6may25/ --recursive
       - echo "Copy completed"  
