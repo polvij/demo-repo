@@ -1,0 +1,20 @@
+{
+  "name": "aws-codebuild-sample",
+  "version": "1.0.0",
+  "description": "A sample Node.js project for AWS CodeBuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Running tests...\" && exit 0",
+    "build": "echo \"Building the application...\""
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "jest": "^29.6.3"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}
